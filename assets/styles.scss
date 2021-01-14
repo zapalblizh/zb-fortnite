@@ -1,9 +1,49 @@
-nav {
-  position: absolute;
-  width: 1600px;
-  height: 80px;
-  left: 0;
-  top: 0;
+@import "normalize";
 
-  background: #000000;
+
+
+.nav {
+  max-width: 100%;
+  background-color: #000000;
+
+  .nav__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 12px;
+    line-height: 22px;
+
+    .header1 {
+      text-align: left;
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+    }
+
+    .header2 {
+      text-align: right;
+      white-space: nowrap;
+
+
+    }
+
+    a {
+      color: #CCCCCC;
+      text-decoration: none;
+
+      &.current {
+        color: #FFFD38;
+      }
+
+    }
+  }
+
+}
+
+
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
 }

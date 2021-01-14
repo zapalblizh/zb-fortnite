@@ -2,21 +2,28 @@ doctype html
 html(lang="en")
     head
         title Home Page
+        script(src="//unpkg.com/feather-icons")
+        link(rel="stylesheet" href="assets/styles.css")
     body
         .nav
             .nav__inner
                 .header1
-                    img(src="images/logofortnite.png")
-                    p BATTLE PASS
-                    p CREATIVE
-                    p SAVE THE WORLD
-                    p COMPETITIVE
+                    img(src="images/logofortnite.png" alt="LOGO FORTNITE" class="imagenav" width="170")
+                    a(href="battle-pass/index.html" id="BattlePass") BATTLE PASS
+                    a(href="#" id="Creative") CREATIVE
+                    a(href="save-world/index.html" id="SaveTheWorld") SAVE THE WORLD
+                    a(href="competitive/index.html" id="Competitive") COMPETITIVE
                 .header2
-                    img(src="images/nav.png")
-                    img(src="images/navnat.png")
-                    img(src="images/sign-in.png")
-                    p Sign in
-                    p Download
+                    span.header-item
+                        img(src="images/nav.png" alt="navigation" class="imagenav")
+                    span.header-item
+                        img(src="images/navnat.png" alt="nationality" class="imagenav")
+                    span.header-item
+                        img(src="images/sign-in.png" alt=" sign in" class="imagenav")
+                    span.header-item
+                        a(href="#" id="SignIn") SIGN IN
+                    span.header-item
+                        a(href="#" id="Download") DOWNLOAD
 
 
         .introduction
@@ -28,82 +35,100 @@ html(lang="en")
         .news
 
             .new1
-                img(src="images/creative-fort-foto")
+                img(src="images/creative-fort-foto.png" alt="creative update")
                 p DEC 18, 2021
                 h3 FORTNITE CREATIVE
 
             .new2
-                img(src="https://assets.climatecentral.org/images/made/2020Snow-report-cover-image_1000_664_s_c1_c_c.jpg")
+                img(src="images/operation-showdown.png" alt="christmas event")
                 p DEC 18, 2021
                 h3 OPERATION SNOWDOWN
             .new3
-                img(src="images/characters.png")
+                img(src="images/characters.png" alt="characters")
                 p DEC 18, 2021
                 h4.
                     FORTNITE ON XBOX SERIES
                     X/S AND PS5
             .new4
-                img(src="images/characters-snow")
+                img(src="images/characters-snow.png" alt="characters snow")
                 p DEC 17, 2020
                 h4.
                     FORTNITE CREATIVE-
                     NEW YEAR, NEW GAMES
 
             .new5
-
-                p
-                h4
+                img(src="images/walking-dead-characters.png" alt="Walking Dead Skins")
+                p DEC 16, 2020
+                h4.
+                    DARYL DIXON AND MICHONNE
+                    JOIN THE HUNT
 
             .new6
-
-                p
-                h4
+                img(src="images/ps-free-skin.png" alt="free skin for ps tournament")
+                p DEC 16, 2020
+                h4.
+                    FORTNITE GENERATIONS CUP-
+                    ONLY ON PS4/PS5
 
             .load-more
-                a(url="#") Load More
+                a(href="#") Load More
 
 
         .battle-pass-intro
-            img
+            img(src="images/battlepassphoto.png" alt="battle pass characters")
             .info1
-                p
-                p
-            img
+                h5 1500 V-BUCKS BACK
+                p.
+                    Get the battle pass for only 950 v-bucks and
+                    earn up to 1500 v-bucks by playing. use them to
+                    buy the next battle pass and future hunters
+                    from the item shop.
+                a(href="#") LEARN MORE
+            img(src="images/loadingscreen.png" alt="loading screen fortnite ")
             .info2
-                p
-                p
+                h5 1500 V-BUCKS BACK
+                p.
+                    Get the battle pass for only 950 v-bucks and
+                    earn up to 1500 v-bucks by playing. use them to
+                    buy the next battle pass and future hunters
+                    from the item shop.
+                a(href="#") LEARN MORE
 
 
         .footer
             .social-icons
-                img
-                img
-                img
-                img
+                img(src="images/Facebook.png" alt="facebook")
+                img(src="images/Twitter.png" alt="twitter")
+                i(data-feather="instagram")
+                img(src="images/Youtube.png" alt="youtube")
             .links
                 .list1
                 ul
-                    ol
-                    ol
-                    ol
-                    ol
+                    li Home
+                    li Battle Pass
+                    li Watch
+                    li Get Fortnite
                 .list2
                 ul
-                    ol
-                    ol
-                    ol
-                    ol
+                    li News
+                    li FAQ
+                    li EULA
+                    li Competitive
                 .list3
                 ul
-                    ol
-                    ol
-                    ol
-                    ol
-                    ol
-                    ol
+                    li V-Bucks Card
+                    li Help
+                    li Safety and
+                    li Security
+                    li Community
+                    li Rules
             .info-foot
-                p
                 p.
-                    higiuhiuh
-                    iygiyg8u
+                    © 2020, Epic Games, Inc. Epic, Epic Games, the Epic Games logo, Fortnite, the Fortnite logo, Unreal, Unreal Engine 4
+                    and UE4 are trademarks or registered trademarks of Epic Games, Inc. in the United States of America and elsewhere.
+                    All rights reserved.
+                p.
+                    Terms of Service   Privacy Policy
+
+        script feather.replace()
 
