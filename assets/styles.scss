@@ -1,6 +1,10 @@
 @import "normalize";
 
 
+$container-size: 1140px;
+
+
+
 
 .nav {
   max-width: 100%;
@@ -9,10 +13,28 @@
   .nav__inner {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-
+    align-items: stretch;
     font-size: 12px;
     line-height: 22px;
+
+    .header-item {
+
+      & + .header-item {
+        margin-left: 30px;
+      }
+
+      &--logo {
+        margin-left: 70px;
+      }
+
+      .btn-download {
+        background-color: #FFFD38;
+        align-items: center;
+        padding: 22px 42px 22px 43px;
+        color: black;
+        font-weight: 800;
+      }
+    }
 
     .header1 {
       text-align: left;
@@ -24,7 +46,15 @@
     .header2 {
       text-align: right;
       white-space: nowrap;
+      display: flex;
+      align-items: center;
 
+
+      img {
+        width: 18px;
+        height: 18px;
+
+      }
 
     }
 
@@ -41,9 +71,63 @@
 
 }
 
+.clearfix {
+  clear: both;
 
+  &:before,
+  &:after {
+    content: "";
+    clear: both;
+  }
+}
 
 body {
   max-width: 100%;
   overflow-x: hidden;
 }
+
+.footer {
+  background-color: black;
+  max-width: 100%;
+  max-height: 100%;
+
+  &__inner {
+    max-width: $container-size;
+    margin: 0;
+    padding: 0;
+  }
+  .links li, p {
+    color: white;
+    font-family: Open Sans, serif;
+    font-size: 14px;
+    font-style: normal;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .social-icons {
+
+    float: left;
+    padding: 0;
+
+
+    svg {
+      width: 24px;
+      height: 24px;
+      display: inline-block;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+}
+
+
+
+

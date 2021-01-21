@@ -8,22 +8,27 @@ html(lang="en")
         .nav
             .nav__inner
                 .header1
-                    img(src="images/logofortnite.png" alt="LOGO FORTNITE" class="imagenav" width="170")
-                    a(href="battle-pass/index.html" id="BattlePass") BATTLE PASS
-                    a(href="#" id="Creative") CREATIVE
-                    a(href="save-world/index.html" id="SaveTheWorld") SAVE THE WORLD
-                    a(href="competitive/index.html" id="Competitive") COMPETITIVE
+                    span.header-item.header-item--logo
+                        img(src="images/logo-fortnite.png" alt="LOGO FORTNITE")
+                    span.header-item
+                        a(href="battle-pass/index.html" id="BattlePass") BATTLE PASS
+                    span.header-item
+                        a(href="#" id="Creative") CREATIVE
+                    span.header-item
+                        a(href="save-world/index.html" id="SaveTheWorld") SAVE THE WORLD
+                    span.header-item
+                        a(href="competitive/index.html" id="Competitive") COMPETITIVE
+
                 .header2
                     span.header-item
-                        img(src="images/nav.png" alt="navigation" class="imagenav")
+                        img(src="images/nav.png" alt="navigation")
                     span.header-item
-                        img(src="images/navnat.png" alt="nationality" class="imagenav")
+                        img(src="images/navnat.png" alt="nationality")
                     span.header-item
-                        img(src="images/sign-in.png" alt=" sign in" class="imagenav")
-                    span.header-item
+                        img(src="images/sign-in.png" alt=" sign in")
                         a(href="#" id="SignIn") SIGN IN
                     span.header-item
-                        a(href="#" id="Download") DOWNLOAD
+                        a.btn-download(href="#") DOWNLOAD
 
 
         .introduction
@@ -96,39 +101,44 @@ html(lang="en")
 
 
         .footer
-            .social-icons
-                img(src="images/Facebook.png" alt="facebook")
-                img(src="images/Twitter.png" alt="twitter")
-                i(data-feather="instagram")
-                img(src="images/Youtube.png" alt="youtube")
-            .links
-                .list1
-                ul
-                    li Home
-                    li Battle Pass
-                    li Watch
-                    li Get Fortnite
-                .list2
-                ul
-                    li News
-                    li FAQ
-                    li EULA
-                    li Competitive
-                .list3
-                ul
-                    li V-Bucks Card
-                    li Help
-                    li Safety and
-                    li Security
-                    li Community
-                    li Rules
-            .info-foot
-                p.
-                    © 2020, Epic Games, Inc. Epic, Epic Games, the Epic Games logo, Fortnite, the Fortnite logo, Unreal, Unreal Engine 4
-                    and UE4 are trademarks or registered trademarks of Epic Games, Inc. in the United States of America and elsewhere.
-                    All rights reserved.
-                p.
-                    Terms of Service   Privacy Policy
+            .footer__inner
+                .social-icons.clearfix
+                    a(href="#")
+                        i.icon(data-feather="facebook")
+                    a(href="#")
+                        i.icon(data-feather="twitter")
+                    a(href="#")
+                        i.icon(data-feather="instagram")
+                    a(href="#")
+                        i.icon(data-feather="youtube")
+                .links.clearfix.table_container
+                    .list1_table.row
+                        ul
+                            li Home
+                            li Battle Pass
+                            li Watch
+                            li Get Fortnite
+                    .list2_table.row
+                        ul
+                            li News
+                            li FAQ
+                            li EULA
+                            li Competitive
+                    .list3_table.row
+                        ul
+                            li V-Bucks Card
+                            li Help
+                            li Safety and
+                            li Security
+                            li Community
+                            li Rules
+                .info-foot.clearfix
+                    p.
+                        © 2020, Epic Games, Inc. Epic, Epic Games, the Epic Games logo, Fortnite, the Fortnite logo, Unreal, Unreal Engine 4
+                        and UE4 are trademarks or registered trademarks of Epic Games, Inc. in the United States of America and elsewhere.
+                        All rights reserved.
+                    p.
+                        Terms of Service   Privacy Policy
 
         script feather.replace()
 

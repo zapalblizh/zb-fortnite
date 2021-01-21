@@ -345,9 +345,22 @@ template {
 .nav .nav__inner {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
   font-size: 12px;
   line-height: 22px;
+}
+.nav .nav__inner .header-item + .header-item {
+  margin-left: 30px;
+}
+.nav .nav__inner .header-item--logo {
+  margin-left: 70px;
+}
+.nav .nav__inner .header-item .btn-download {
+  background-color: #FFFD38;
+  align-items: center;
+  padding: 22px 42px 22px 43px;
+  color: black;
+  font-weight: 800;
 }
 .nav .nav__inner .header1 {
   text-align: left;
@@ -358,6 +371,12 @@ template {
 .nav .nav__inner .header2 {
   text-align: right;
   white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
+.nav .nav__inner .header2 img {
+  width: 18px;
+  height: 18px;
 }
 .nav .nav__inner a {
   color: #CCCCCC;
@@ -367,8 +386,51 @@ template {
   color: #FFFD38;
 }
 
+.clearfix {
+  clear: both;
+}
+.clearfix:before, .clearfix:after {
+  content: "";
+  clear: both;
+}
+
 body {
   max-width: 100%;
   overflow-x: hidden;
+}
+
+.footer {
+  background-color: black;
+  max-width: 100%;
+  max-height: 100%;
+}
+.footer__inner {
+  max-width: 1140px;
+  margin: 0;
+  padding: 0;
+}
+.footer .links li, .footer p {
+  color: white;
+  font-family: Open Sans, serif;
+  font-size: 14px;
+  font-style: normal;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .social-icons {
+  float: left;
+  padding: 0;
+}
+.footer .social-icons svg {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
 }
 /*# sourceMappingURL=styles.css.map */
