@@ -411,6 +411,9 @@ body {
   margin: auto;
   padding: 0;
 }
+.footer__inner .rights {
+  text-align: left;
+}
 .footer .links li, .footer p {
   color: white;
   font-family: Open Sans, serif;
@@ -422,16 +425,16 @@ body {
 }
 .footer .social-icons {
   float: left;
-  padding: 0;
+  padding: 0 20px;
   display: flex;
   justify-content: space-between;
+}
+.footer .social-icons .icons + .icons {
+  margin-left: 15px;
 }
 .footer .social-icons svg {
   width: 24px;
   height: 24px;
-  display: inline-block;
-  align-items: center;
-  justify-content: space-between;
 }
 .footer a {
   color: white;
@@ -441,10 +444,11 @@ body {
   display: flex;
   justify-content: flex-start;
 }
-.footer .table_container .column + .column {
-  margin-left: 50px;
-}
 .footer .table_container ul {
   padding: 0;
+}
+
+.column + .column {
+  margin-left: 50px;
 }
 /*# sourceMappingURL=styles.css.map */

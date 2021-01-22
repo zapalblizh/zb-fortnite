@@ -97,7 +97,13 @@ body {
     max-width: $container-size;
     margin: auto;
     padding: 0;
+
+    .rights {
+      text-align: left;
+    }
+
   }
+
   .links li, p {
     color: white;
     font-family: Open Sans, serif;
@@ -111,17 +117,18 @@ body {
   .social-icons {
 
     float: left;
-    padding: 0;
+    padding: 0 20px;
     display: flex;
     justify-content: space-between;
 
-
+    .icons {
+      & + .icons {
+        margin-left: 15px;
+      }
+    }
     svg {
       width: 24px;
       height: 24px;
-      display: inline-block;
-      align-items: center;
-      justify-content: space-between;
     }
   }
 
@@ -134,13 +141,6 @@ body {
     display: flex;
     justify-content: flex-start;
 
-    .column {
-      & + .column {
-        margin-left: 50px;
-      }
-
-    }
-
     ul {
       padding: 0;
     }
@@ -148,6 +148,10 @@ body {
 
 }
 
+.column {
+  & + .column {
+    margin-left: 50px;
+  }
 
-
+}
 
