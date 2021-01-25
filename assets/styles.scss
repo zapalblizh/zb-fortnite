@@ -148,10 +148,15 @@ body {
 
 }
 
-.column {
-  & + .column {
-    margin-left: 50px;
+  .column {
+    & + .column {
+      margin-left: 50px;
+    }
+
+  .line {
+    width: 1px;
+    color: grey;
+    align-items: center;
   }
-
+    
 }
-
