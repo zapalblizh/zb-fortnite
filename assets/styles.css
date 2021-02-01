@@ -456,4 +456,24 @@ body {
   color: grey;
   align-items: center;
 }
+
+.introduction {
+  background-image: url(images/introduction.png);
+  max-width: 100%;
+}
+.introduction .white {
+  font-family: Burbank Big, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 45px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: white;
+}
+.introduction .white .smaller {
+  font-size: 48px;
+}
+.introduction .white .bigger {
+  font-size: 96px;
+}
 /*# sourceMappingURL=styles.css.map */
