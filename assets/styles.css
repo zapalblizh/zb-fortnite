@@ -81,8 +81,7 @@ abbr[title] {
   /* 1 */
   text-decoration: underline;
   /* 2 */
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
   /* 2 */
 }
 
@@ -338,6 +337,14 @@ template {
   display: none;
 }
 
+@font-face {
+  font-family: "Burbank Big Cd Bk";
+  src: url("fonts/BurbankBigCondensed-Black.eot");
+  src: url("fonts/BurbankBigCondensed-Black.eot?#iefix") format("embedded-opentype"), url("fonts/BurbankBigCondensed-Black.woff2") format("woff2"), url("fonts/BurbankBigCondensed-Black.woff") format("woff"), url("fonts/BurbankBigCondensed-Black.ttf") format("truetype"), url("fonts/BurbankBigCondensed-Black.svg#BurbankBigCondensed-Black") format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 .nav {
   max-width: 100%;
   background-color: #000000;
@@ -462,32 +469,27 @@ body {
   max-width: 100%;
   height: 850px;
   font-family: Burbank Big Cd Bk, sans-serif;
-  font-weight: 900 !important;
+  font-weight: 1600 !important;
+  align-items: center;
+  text-align: left;
 }
-.introduction .white {
+.introduction .peas {
+  margin: 0 99px 20px 99px;
+}
+.introduction .peas .white {
   font-style: normal;
   font-weight: 900;
   line-height: 45px;
   letter-spacing: 0.1em;
-  text-align: left;
   color: white;
 }
-
-.bigger {
+.introduction .peas .black {
+  font-size: 48px;
+}
+.introduction .peas .bigger {
   font-size: 50px;
 }
-
-.smaller {
-  margin: 0;
+.introduction .peas .smaller {
+  margin-top: 0;
   font-size: 40px;
 }
-
-@font-face {
-  font-family: "Burbank Big Cd Bk";
-  src: url("fortnite-font-style/BurbankBigCondensed-Black.eot");
-  src: url("fortnite-font-style/BurbankBigCondensed-Black.eot?#iefix") format("embedded-opentype"), url("fortnite-font-style/BurbankBigCondensed-Black.woff2") format("woff2"), url("fortnite-font-style/BurbankBigCondensed-Black.woff") format("woff"), url("fortnite-font-style/BurbankBigCondensed-Black.ttf") format("truetype"), url("fortnite-font-style/BurbankBigCondensed-Black.svg#BurbankBigCondensed-Black") format("svg");
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-/*# sourceMappingURL=styles.css.map */
