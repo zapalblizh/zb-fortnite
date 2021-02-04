@@ -462,6 +462,7 @@ body {
   max-width: 100%;
   height: 850px;
   font-family: Burbank Big Cd Bk, sans-serif;
+  font-weight: 900 !important;
 }
 .introduction .white {
   font-style: normal;
@@ -471,22 +472,21 @@ body {
   text-align: left;
   color: white;
 }
-.introduction .white .smaller {
-  font-size: 70px;
-}
-.introduction .white .bigger {
-  font-size: 120px;
+
+.bigger {
+  font-size: 50px;
 }
 
 .smaller {
   margin: 0;
+  font-size: 40px;
 }
 
 @font-face {
   font-family: "Burbank Big Cd Bk";
   src: url("fortnite-font-style/BurbankBigCondensed-Black.eot");
   src: url("fortnite-font-style/BurbankBigCondensed-Black.eot?#iefix") format("embedded-opentype"), url("fortnite-font-style/BurbankBigCondensed-Black.woff2") format("woff2"), url("fortnite-font-style/BurbankBigCondensed-Black.woff") format("woff"), url("fortnite-font-style/BurbankBigCondensed-Black.ttf") format("truetype"), url("fortnite-font-style/BurbankBigCondensed-Black.svg#BurbankBigCondensed-Black") format("svg");
-  font-weight: 700;
+  font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
