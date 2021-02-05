@@ -466,6 +466,9 @@ body {
 
 .introduction {
   background-image: url(images/introduction.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   max-width: 100%;
   height: 850px;
   font-family: Burbank Big Cd Bk, sans-serif;
@@ -473,23 +476,29 @@ body {
   align-items: center;
   text-align: left;
 }
-.introduction .peas {
+.introduction .peas.table_container {
   margin: 0 99px 20px 99px;
+  max-width: 1140px;
+  display: flex;
+  justify-content: flex-start;
 }
-.introduction .peas .white {
+.introduction .peas.table_container .row + .row {
+  margin-top: 20px;
+}
+.introduction .peas.table_container .white {
   font-style: normal;
   font-weight: 900;
   line-height: 45px;
   letter-spacing: 0.1em;
   color: white;
 }
-.introduction .peas .black {
+.introduction .peas.table_container .black {
   font-size: 48px;
 }
-.introduction .peas .bigger {
+.introduction .peas.table_container .bigger {
   font-size: 50px;
 }
-.introduction .peas .smaller {
+.introduction .peas.table_container .smaller {
   margin-top: 0;
   font-size: 40px;
 }
