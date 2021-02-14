@@ -2,7 +2,8 @@
 @import "fonts";
 
 $container-size: 1140px;
-$container-size-two: 837px;
+$container-size-news1: 837px;
+$container-size-news2: 523px;
 
 
 .nav {
@@ -215,7 +216,7 @@ body {
 
     .new1 {
       background-image: url("images/creative-fort-foto.png");
-      max-width: $container-size-two;
+      max-width: $container-size-news1;
       height: 700px;
       margin-left: 99px;
 
@@ -223,6 +224,8 @@ body {
 
     .new2 {
       background-image: url("images/operation-showdown.png");
+      max-width: 100%;
+      height: 700px;
     }
 
     .opensans {
