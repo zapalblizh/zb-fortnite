@@ -508,6 +508,35 @@ body {
 
 .news .new1 {
   background-image: url("images/creative-fort-foto.png");
+  max-width: 837px;
   height: 700px;
-  width: 837px;
+  margin-left: 99px;
+}
+.news .new2 {
+  background-image: url("images/operation-showdown.png");
+}
+.news .opensans {
+  font-family: Open Sans, sans-serif;
+}
+.news .smallnews {
+  font-size: 20px;
+  font-weight: 800;
+}
+.news .whitenews {
+  color: white;
+}
+.news .blacknews {
+  color: black;
+}
+.news .blue {
+  color: #2DB9F0;
+  font-size: 18px;
+}
+.news .sizenews {
+  font-size: 35px;
+  font-weight: 700;
+  font-family: Burbank Big Cd Bk, sans-serif;
+}
+.news .sizenews30px {
+  font-size: 30px;
 }

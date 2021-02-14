@@ -2,6 +2,7 @@
 @import "fonts";
 
 $container-size: 1140px;
+$container-size-two: 837px;
 
 
 .nav {
@@ -211,9 +212,48 @@ body {
 }
 
 .news {
+
     .new1 {
       background-image: url("images/creative-fort-foto.png");
+      max-width: $container-size-two;
       height: 700px;
-      width: 837px;
+      margin-left: 99px;
+
+    }
+
+    .new2 {
+      background-image: url("images/operation-showdown.png");
+    }
+
+    .opensans {
+      font-family: Open Sans, sans-serif;
+    }
+
+    .smallnews {
+      font-size: 20px;
+      font-weight: 800;
+    }
+
+    .whitenews {
+      color: white;
+    }
+
+    .blacknews {
+      color: black;
+    }
+
+    .blue {
+      color: #2DB9F0;
+      font-size: 18px;
+    }
+  
+    .sizenews {
+      font-size: 35px;
+      font-weight: 700;
+      font-family: Burbank Big Cd Bk, sans-serif;
+    }
+
+    .sizenews30px {
+      font-size: 30px;
     }
 }

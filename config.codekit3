@@ -244,7 +244,7 @@
     },
     "\/assets\/images\/operation-showdown.png" : {
       "ft" : 32768,
-      "iS" : 1828619,
+      "iS" : 589127,
       "oA" : 0,
       "oAP" : "\/assets\/images\/operation-showdown.png",
       "oF" : 0,
@@ -372,6 +372,19 @@
       "oAP" : "\/battle-pass\/index.html",
       "oF" : 0
     },
+    "\/characters.png" : {
+      "ft" : 32768,
+      "iS" : 201848,
+      "oA" : 0,
+      "oAP" : "\/characters.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/competitive.pug" : {
       "cB" : 0,
       "cOD" : 1,
@@ -389,6 +402,19 @@
       "oA" : 0,
       "oAP" : "\/competitive\/index.html",
       "oF" : 0
+    },
+    "\/frozen-characters.png" : {
+      "ft" : 32768,
+      "iS" : 177647,
+      "oA" : 0,
+      "oAP" : "\/frozen-characters.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/index.html" : {
       "cB" : 0,
@@ -415,6 +441,19 @@
       "oA" : 1,
       "oAP" : "\/prepros.config",
       "oF" : 1
+    },
+    "\/ps-free-skin.png" : {
+      "ft" : 32768,
+      "iS" : 146393,
+      "oA" : 0,
+      "oAP" : "\/ps-free-skin.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/README.md" : {
       "cB" : 0,
@@ -452,6 +491,19 @@
       "oA" : 0,
       "oAP" : "\/save-world\/index.html",
       "oF" : 0
+    },
+    "\/walking-dead.png" : {
+      "ft" : 32768,
+      "iS" : 209574,
+      "oA" : 0,
+      "oAP" : "\/walking-dead.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     }
   },
   "hooks" : [
