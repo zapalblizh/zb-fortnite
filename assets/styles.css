@@ -505,3 +505,9 @@ body {
   padding: 22px 42px 22px 43px;
   text-decoration: none;
 }
+
+.news .new1 {
+  background-image: url("images/creative-fort-foto.png");
+  height: 700px;
+  width: 837px;
+}
