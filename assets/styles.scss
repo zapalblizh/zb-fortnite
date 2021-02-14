@@ -4,8 +4,6 @@
 $container-size: 1140px;
 
 
-
-
 .nav {
   max-width: 100%;
   background-color: #000000;
@@ -126,6 +124,7 @@ body {
         margin-left: 15px;
       }
     }
+
     svg {
       width: 24px;
       height: 24px;
@@ -148,10 +147,10 @@ body {
 
 }
 
-  .column {
-    & + .column {
-      margin-left: 50px;
-    }
+.column {
+  & + .column {
+    margin-left: 50px;
+  }
 
   .line {
     width: 1px;
@@ -175,16 +174,24 @@ body {
   .peas.table_container {
     margin: 0 99px 20px 99px;
     max-width: $container-size;
-    display: flex;
-    justify-content: flex-start;
+    display: table;
+    column-count: 1;
 
 
     .white {
       font-style: normal;
-      font-weight: 900;
       line-height: 45px;
       letter-spacing: 0.1em;
       color: white;
+
+      &.bigger {
+        font-size: 60px;
+      }
+
+      &.smaller {
+        margin-top: 290px;
+        font-size: 40px;
+      }
 
     }
 
@@ -192,13 +199,13 @@ body {
       font-size: 48px;
     }
 
-    .bigger {
-      font-size: 50px;
-    }
+    .button {
+      background-color: #0B0D32;
+      color: white;
+      font-size: 24px;
+      padding: 22px 42px 22px 43px;
+      text-decoration: none;
 
-    .smaller {
-      margin-top: 0;
-      font-size: 40px;
     }
   }
 }
