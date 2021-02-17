@@ -506,17 +506,6 @@ body {
   text-decoration: none;
 }
 
-.news .new1 {
-  background-image: url("images/creative-fort-foto.png");
-  max-width: 837px;
-  height: 700px;
-  margin-left: 99px;
-}
-.news .new2 {
-  background-image: url("images/operation-showdown.png");
-  max-width: 100%;
-  height: 700px;
-}
 .news .opensans {
   font-family: Open Sans, sans-serif;
 }
@@ -541,4 +530,30 @@ body {
 }
 .news .sizenews30px {
   font-size: 30px;
+}
+.news .newssection {
+  display: flex;
+  align-items: flex-start;
+  max-width: 1140px;
+  margin: -10vh auto 0;
+}
+.news .newssection .new1 {
+  background-image: url("images/creative-fort-foto.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+  margin: 30px;
+  background-position: center;
+  width: 60%;
+  height: 700px;
+}
+.news .newssection .new2 {
+  background-image: url("images/operation-showdown.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 30px;
+  margin: 30px;
+  width: 40%;
+  height: 700px;
 }

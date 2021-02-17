@@ -2,8 +2,6 @@
 @import "fonts";
 
 $container-size: 1140px;
-$container-size-news1: 837px;
-$container-size-news2: 523px;
 
 
 .nav {
@@ -214,49 +212,72 @@ body {
 
 .news {
 
+  .opensans {
+    font-family: Open Sans, sans-serif;
+  }
+
+  .smallnews {
+    font-size: 20px;
+    font-weight: 800;
+  }
+
+  .whitenews {
+    color: white;
+  }
+
+  .blacknews {
+    color: black;
+  }
+
+  .blue {
+    color: #2DB9F0;
+    font-size: 18px;
+  }
+
+  .sizenews {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: Burbank Big Cd Bk, sans-serif;
+  }
+
+  .sizenews30px {
+    font-size: 30px;
+  }
+
+  .newssection {
+    display: flex;
+    align-items: flex-start;
+    max-width: $container-size;
+    margin: -10vh auto 0;
     .new1 {
       background-image: url("images/creative-fort-foto.png");
-      max-width: $container-size-news1;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 30px;
+      margin: 30px;
+      background-position: center;
+      width: 60%;
       height: 700px;
-      margin-left: 99px;
+
+      .text1 {
+
+      }
 
     }
 
     .new2 {
       background-image: url("images/operation-showdown.png");
-      max-width: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      padding: 30px;
+      margin: 30px;
+      width: 40%;
       height: 700px;
+      .text2 {
+
+      }
     }
 
-    .opensans {
-      font-family: Open Sans, sans-serif;
-    }
-
-    .smallnews {
-      font-size: 20px;
-      font-weight: 800;
-    }
-
-    .whitenews {
-      color: white;
-    }
-
-    .blacknews {
-      color: black;
-    }
-
-    .blue {
-      color: #2DB9F0;
-      font-size: 18px;
-    }
-  
-    .sizenews {
-      font-size: 35px;
-      font-weight: 700;
-      font-family: Burbank Big Cd Bk, sans-serif;
-    }
-
-    .sizenews30px {
-      font-size: 30px;
-    }
+  }
 }
