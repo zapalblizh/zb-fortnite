@@ -127,7 +127,7 @@
     },
     "\/assets\/images\/characters.png" : {
       "ft" : 32768,
-      "iS" : 666283,
+      "iS" : 201848,
       "oA" : 0,
       "oAP" : "\/assets\/images\/characters.png",
       "oF" : 0,
@@ -156,6 +156,19 @@
       "iS" : 446,
       "oA" : 0,
       "oAP" : "\/assets\/images\/Facebook.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/frozen-characters.png" : {
+      "ft" : 32768,
+      "iS" : 177647,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/frozen-characters.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -257,7 +270,7 @@
     },
     "\/assets\/images\/ps-free-skin.png" : {
       "ft" : 32768,
-      "iS" : 432877,
+      "iS" : 146393,
       "oA" : 0,
       "oAP" : "\/assets\/images\/ps-free-skin.png",
       "oF" : 0,
@@ -299,6 +312,19 @@
       "iS" : 681144,
       "oA" : 0,
       "oAP" : "\/assets\/images\/walking-dead-characters.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/walking-dead.png" : {
+      "ft" : 32768,
+      "iS" : 209574,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/walking-dead.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -372,19 +398,6 @@
       "oAP" : "\/battle-pass\/index.html",
       "oF" : 0
     },
-    "\/characters.png" : {
-      "ft" : 32768,
-      "iS" : 201848,
-      "oA" : 0,
-      "oAP" : "\/characters.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/competitive.pug" : {
       "cB" : 0,
       "cOD" : 1,
@@ -403,19 +416,6 @@
       "oAP" : "\/competitive\/index.html",
       "oF" : 0
     },
-    "\/frozen-characters.png" : {
-      "ft" : 32768,
-      "iS" : 177647,
-      "oA" : 0,
-      "oAP" : "\/frozen-characters.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -431,7 +431,7 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/index.html",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0
     },
     "\/prepros.config" : {
@@ -441,19 +441,6 @@
       "oA" : 1,
       "oAP" : "\/prepros.config",
       "oF" : 1
-    },
-    "\/ps-free-skin.png" : {
-      "ft" : 32768,
-      "iS" : 146393,
-      "oA" : 0,
-      "oAP" : "\/ps-free-skin.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
     },
     "\/README.md" : {
       "cB" : 0,
@@ -491,19 +478,6 @@
       "oA" : 0,
       "oAP" : "\/save-world\/index.html",
       "oF" : 0
-    },
-    "\/walking-dead.png" : {
-      "ft" : 32768,
-      "iS" : 209574,
-      "oA" : 0,
-      "oAP" : "\/walking-dead.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
     }
   },
   "hooks" : [
