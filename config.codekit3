@@ -112,19 +112,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/images\/characters-snow.png" : {
-      "ft" : 32768,
-      "iS" : 536920,
-      "oA" : 0,
-      "oAP" : "\/assets\/images\/characters-snow.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/assets\/images\/characters.png" : {
       "ft" : 32768,
       "iS" : 201848,
@@ -299,19 +286,6 @@
       "iS" : 935,
       "oA" : 0,
       "oAP" : "\/assets\/images\/Twitter.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/assets\/images\/walking-dead-characters.png" : {
-      "ft" : 32768,
-      "iS" : 681144,
-      "oA" : 0,
-      "oAP" : "\/assets\/images\/walking-dead-characters.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
