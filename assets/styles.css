@@ -569,7 +569,6 @@ body {
 }
 .news .newssection2 {
   display: flex;
-  align-items: flex-start;
   max-width: 1140px;
   margin: 40px auto 227px;
   column-count: 4;
@@ -578,28 +577,75 @@ body {
 .news .col4 {
   width: 25%;
   background-color: #F9F9F9;
-}
-.news .col4 + .col4 {
-  margin-left: 27px;
-}
-.news .col4--1 {
-  margin-left: 100px;
-}
-.news .col4--4 {
-  margin-right: 100px;
+  margin: 0 20px;
 }
 
+.load-more {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-140%);
+}
 .load-more a {
+  max-width: 1140px;
   text-decoration: none;
   color: #0B0D32;
   font-family: Burbank Big Cd Bk, sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px;
   letter-spacing: 0;
-  text-align: center;
-  border: #0B0D32;
+  border-style: solid;
+  border-color: #0B0D32;
   border-width: 3px;
   text-transform: uppercase;
+  padding: 20px 78px;
+}
+
+.battle-pass-intro {
+  background-color: #7854F7;
+}
+.battle-pass-intro .battle-pass-intro__container {
+  max-width: 1140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-count: 2;
+}
+.battle-pass-intro .learn-more {
+  display: flex;
+  align-items: center;
+}
+.battle-pass-intro .learn-more a {
+  text-decoration: none;
+  background-color: #FFFD38;
+  align-items: center;
+  padding: 22px 42px 22px 43px;
+  color: black;
+  font-weight: 800;
+}
+.battle-pass-intro .green {
+  font-family: Burbank Big Cd Bk, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #85FF00;
+}
+.battle-pass-intro .whitebattlepass {
+  color: white;
+}
+.battle-pass-intro .vbucks1 {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.battle-pass-intro .vbucks2 {
+  display: flex;
+  justify-content: left;
+  align-items: center;
 }

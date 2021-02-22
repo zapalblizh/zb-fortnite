@@ -2,10 +2,10 @@
 @import "fonts";
 
 $container-size: 1140px;
-
+$container-size2: 100%;
 
 .nav {
-  max-width: 100%;
+  max-width: $container-size2;
   background-color: #000000;
 
   .nav__inner {
@@ -80,13 +80,13 @@ $container-size: 1140px;
 }
 
 body {
-  max-width: 100%;
+  max-width: $container-size2;
   overflow-x: hidden;
 }
 
 .footer {
   background-color: black;
-  max-width: 100%;
+  max-width: $container-size2;
   max-height: 100%;
   text-align: center;
   padding: 50px 20px;
@@ -164,7 +164,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 100%;
+  max-width: $container-size2;
   height: 850px;
   font-family: Burbank Big Cd Bk, sans-serif;
   font-weight: 1600 !important;
@@ -290,7 +290,6 @@ body {
 
   .newssection2 {
     display: flex;
-    align-items: flex-start;
     max-width: $container-size;
     margin: 40px auto 227px;
     column-count: 4;
@@ -301,37 +300,94 @@ body {
     width: 25%;
     background-color: #F9F9F9;
 
-    & + .col4 {
-      margin-left: 27px;
-    }
+    margin: 0 20px;
   }
 
-
-  .col4--1 {
-    margin-left: 100px;
-  }
-
-  .col4--4 {
-    margin-right: 100px;
-  }
 
 }
 
 .load-more {
-  
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-140%);
+
   a {
+    max-width: $container-size;
     text-decoration: none;
     color: #0B0D32;
     font-family: Burbank Big Cd Bk, sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: 24px;
     letter-spacing: 0;
-    text-align: center;
-    border: #0B0D32;
+    border-style: solid;
+    border-color: #0B0D32;
     border-width: 3px;
     text-transform: uppercase;
+    padding: 20px 78px;
+
   }
 
 }
+
+.battle-pass-intro {
+  background-color: #7854F7;
+
+  .battle-pass-intro__container {
+    max-width: $container-size;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-count: 2;
+
+  }
+
+  .learn-more {
+
+    display: flex;
+    align-items: center;
+
+    a {
+      text-decoration: none;
+      background-color: #FFFD38;
+      align-items: center;
+      padding: 22px 42px 22px 43px;
+      color: black;
+      font-weight: 800;
+
+    }
+
+  }
+
+  .green {
+    font-family: Burbank Big Cd Bk, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #85FF00;
+
+  }
+
+  .whitebattlepass {
+    color: white;
+  }
+
+  .vbucks1 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+
+  .vbucks2 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+}
+

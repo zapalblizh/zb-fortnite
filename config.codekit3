@@ -7,7 +7,7 @@
       "uuidString" : "C38BD31C-66D3-4F65-9E94-8EDB3E8DADE4"
     }
   ],
-  "creatorBuild" : "34000",
+  "creatorBuild" : "34018",
   "files" : {
     "\/_includes" : {
       "ft" : 65536,
@@ -99,11 +99,11 @@
       "oAP" : "\/assets\/fonts\/BurbankBigCondensed-Black.woff2",
       "oF" : 0
     },
-    "\/assets\/images\/battlepassphoto.png" : {
+    "\/assets\/images\/battle-pass-characters.png" : {
       "ft" : 32768,
-      "iS" : 1800092,
+      "iS" : 498069,
       "oA" : 0,
-      "oAP" : "\/assets\/images\/battlepassphoto.png",
+      "oAP" : "\/assets\/images\/battle-pass-characters.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -192,7 +192,7 @@
     },
     "\/assets\/images\/loadingscreen.png" : {
       "ft" : 32768,
-      "iS" : 1492105,
+      "iS" : 481603,
       "oA" : 0,
       "oAP" : "\/assets\/images\/loadingscreen.png",
       "oF" : 0,
@@ -407,6 +407,19 @@
       "oAP" : "\/index.html",
       "oF" : 1,
       "oS" : 0
+    },
+    "\/points.png" : {
+      "ft" : 32768,
+      "iS" : 5769,
+      "oA" : 0,
+      "oAP" : "\/points.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/prepros.config" : {
       "cB" : 0,
