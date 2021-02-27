@@ -339,16 +339,14 @@ body {
   .battle-pass-intro__container {
     max-width: $container-size;
     display: flex;
-    align-items: center;
     justify-content: center;
+    margin: 0 auto;
+    row-span: 2;
     column-count: 2;
-
   }
 
   .learn-more {
-
-    display: flex;
-    align-items: center;
+    margin-top: 70px;
 
     a {
       text-decoration: none;
@@ -378,16 +376,6 @@ body {
     color: white;
   }
 
-  .vbucks1 {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-  }
 
-  .vbucks2 {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-  }
 }
 

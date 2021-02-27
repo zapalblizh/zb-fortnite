@@ -610,13 +610,13 @@ body {
 .battle-pass-intro .battle-pass-intro__container {
   max-width: 1140px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  margin: 0 auto;
+  row-span: 2;
   column-count: 2;
 }
 .battle-pass-intro .learn-more {
-  display: flex;
-  align-items: center;
+  margin-top: 70px;
 }
 .battle-pass-intro .learn-more a {
   text-decoration: none;
@@ -638,14 +638,4 @@ body {
 }
 .battle-pass-intro .whitebattlepass {
   color: white;
-}
-.battle-pass-intro .vbucks1 {
-  display: flex;
-  justify-content: right;
-  align-items: center;
-}
-.battle-pass-intro .vbucks2 {
-  display: flex;
-  justify-content: left;
-  align-items: center;
 }
