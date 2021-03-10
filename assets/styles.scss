@@ -335,14 +335,37 @@ body {
 
 .battle-pass-intro {
   background-color: #7854F7;
+  background-image: url("images/dots-background.png");
+  background-repeat: no-repeat;
+
 
   .battle-pass-intro__container {
     max-width: $container-size;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin: 0 auto;
     row-span: 2;
     column-count: 2;
+    
+    .row {
+      margin-bottom: 70px;
+      
+      .cell {
+        max-width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+      }
+
+      .special {
+        margin-left: 100px;
+        .img-wrapper {
+          margin-top: 100px;
+        }
+
+      }
+    }
   }
 
   .learn-more {

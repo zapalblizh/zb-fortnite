@@ -90,9 +90,10 @@ html(lang="en")
             .battle-pass-intro__container
 
                 .row
-                    .img.margin
-                        img(src="assets/images/battle-pass-characters.png" alt="battle pass characters")
-                    .vbucks.margin
+                    .cell
+                        .img-wrapper
+                            img(src="assets/images/battle-pass-characters.png" alt="battle pass characters")
+                    .cell.cell--vbucks
                         h5.green 1500 V-BUCKS BACK
                         p.whitebattlepass.
                             Get the battle pass for only 950 v-bucks and
@@ -102,18 +103,20 @@ html(lang="en")
                         .learn-more
                             a(href="#") LEARN MORE
 
-                .row2
-                    .vbucks.margin
-                        h5.green 1500 V-BUCKS BACK
-                        p.whitebattlepass.
-                            Get the battle pass for only 950 v-bucks and
-                            earn up to 1500 v-bucks by playing. Use them to
-                            buy the next battle pass and future hunters
-                            from the item shop.
-                        .learn-more
-                            a(href="#") LEARN MORE
-                    .img2.margin
-                        img(src="assets/images/loadingscreen.png" alt="loading screen fortnite ")
+                .row
+                    .special
+                        .cell.cell--vbucks
+                            h5.green 1500 V-BUCKS BACK
+                            p.whitebattlepass.
+                                Get the battle pass for only 950 v-bucks and
+                                earn up to 1500 v-bucks by playing. Use them to
+                                buy the next battle pass and future hunters
+                                from the item shop.
+                            .learn-more
+                                a(href="#") LEARN MORE
+                        .cell
+                            .img-wrapper
+                                img(src="assets/images/loadingscreen.png" alt="loading screen fortnite ")
 
 
 

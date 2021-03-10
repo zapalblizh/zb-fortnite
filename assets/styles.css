@@ -606,14 +606,31 @@ body {
 
 .battle-pass-intro {
   background-color: #7854F7;
+  background-image: url("images/dots-background.png");
+  background-repeat: no-repeat;
 }
 .battle-pass-intro .battle-pass-intro__container {
   max-width: 1140px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   margin: 0 auto;
   row-span: 2;
   column-count: 2;
+}
+.battle-pass-intro .battle-pass-intro__container .row {
+  margin-bottom: 70px;
+}
+.battle-pass-intro .battle-pass-intro__container .row .cell {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.battle-pass-intro .battle-pass-intro__container .row .special {
+  margin-left: 100px;
+}
+.battle-pass-intro .battle-pass-intro__container .row .special .img-wrapper {
+  margin-top: 100px;
 }
 .battle-pass-intro .learn-more {
   margin-top: 70px;
