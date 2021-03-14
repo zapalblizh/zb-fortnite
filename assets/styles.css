@@ -627,6 +627,9 @@ body {
   justify-content: space-around;
 }
 .battle-pass-intro .battle-pass-intro__container .row .special {
+  background-image: url("images/dots-background.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
   margin-left: 100px;
 }
 .battle-pass-intro .battle-pass-intro__container .row .special .img-wrapper {

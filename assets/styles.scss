@@ -340,6 +340,7 @@ body {
 
 
   .battle-pass-intro__container {
+
     max-width: $container-size;
     display: flex;
     justify-content: space-around;
@@ -359,6 +360,9 @@ body {
       }
 
       .special {
+        background-image: url("images/dots-background.png");
+        background-repeat: no-repeat;
+        background-position: bottom right ;
         margin-left: 100px;
         .img-wrapper {
           margin-top: 100px;
