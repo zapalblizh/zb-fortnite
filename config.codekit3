@@ -164,6 +164,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/fortnite crew.png" : {
+      "ft" : 32768,
+      "iS" : 77657,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/fortnite crew.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/frozen-characters.png" : {
       "ft" : 32768,
       "iS" : 177647,
@@ -374,7 +387,7 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/battle-pass\/index.html",
-      "oF" : 2,
+      "oF" : 3,
       "oS" : 0
     },
     "\/battle-pass\/index.html" : {

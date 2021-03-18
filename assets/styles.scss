@@ -1,6 +1,7 @@
 @import "normalize";
 @import "fonts";
 
+
 $container-size: 1140px;
 $container-size2: 100%;
 
@@ -405,4 +406,51 @@ body {
 
 
 }
+
+.intropass {
+  background: linear-gradient(106.7deg, #8135A4 -2.72%, #27184C 95.25%);
+  max-width: 100%;
+
+  .learn-more {
+    margin-top: 70px;
+
+    a {
+      margin: auto;
+      background-color: #FFFD38;
+      padding: 22px 42px 22px 43px;
+      text-decoration: none;
+      align-items: center;
+      color: black;
+      font-weight: bold;
+
+    }
+
+  }
+
+  .red-big {
+    color: #EB4851;
+    font-family: Burbank Big Cd Bk, sans-serif;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-align: left;
+    margin: 0;
+  }
+
+  .white-big {
+    color: white;
+    font-family: Burbank Big Cd Bk, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.1em;
+    text-align: left;
+
+  }
+
+}
+
+
 

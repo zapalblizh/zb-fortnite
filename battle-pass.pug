@@ -3,83 +3,84 @@ html(lang="en")
     head
         title Battle Pass
         script(src="//unpkg.com/feather-icons")
-        link(rel="stylesheet" href="assets/styles.css")
+        link(rel="stylesheet" href="../assets/styles.css")
     body
         .nav
             .nav__inner
                 .header1
                     span.header-item.header-item--logo
-                        img(src="images/logo-fortnite.png" alt="LOGO FORTNITE")
+                        img(src="../assets/images/logo-fortnite.png" alt="LOGO FORTNITE")
                     span.header-item
-                        a(href="battle-pass/index.html" id="BattlePass") BATTLE PASS
+                        a(href="index.html" id="BattlePass") BATTLE PASS
                     span.header-item
                         a(href="#" id="Creative") CREATIVE
                     span.header-item
-                        a(href="save-world/index.html" id="SaveTheWorld") SAVE THE WORLD
+                        a(href="../save-world/index.html" id="SaveTheWorld") SAVE THE WORLD
                     span.header-item
-                        a(href="competitive/index.html" id="Competitive") COMPETITIVE
+                        a(href="../competitive/index.html" id="Competitive") COMPETITIVE
 
                 .header2
                     span.header-item
-                        img(src="images/nav.png" alt="navigation")
+                        img(src="../assets/images/nav.png" alt="navigation")
                     span.header-item
-                        img(src="images/navnat.png" alt="nationality")
+                        img(src="../assets/images/navnat.png" alt="nationality")
                     span.header-item
-                        img(src="images/sign-in.png" alt=" sign in")
+                        img(src="../assets/images/sign-in.png" alt=" sign in")
                         a(href="#" id="SignIn") SIGN IN
                     span.header-item
                         a.btn-download(href="#") DOWNLOAD
+
         .intropass
-            img
-            p
-            p
-            p
-        .saveworldpass
-            p
-            img
-            p
-            p
-            img
-            p
-            p
-            img
-            p
-            p
-        .introcharacters
-            p
-            p
-            img
-            p
-            img
-            img
-            img
+            .intropass__inner
+                p.red-big JOIN THE HUNT
+                p.white-big WITH NEW OUTFITS
+                p.learn-more LEARN MORE
+                img(src="../assets/images/fortnite crew.png")
+
         .footer
-            .emotes
-                img
-                img
-                img
-                img
-            .links
-                .list1
-                ul
-                    ol
-                    ol
-                    ol
-                    ol
-                .list2
-                ul
-                    ol
-                    ol
-                    ol
-                    ol
-                .list3
-                ul
-                    ol
-                    ol
-                    ol
-                    ol
-                    ol
-                    ol
-            .infofoot
-                p
-                p
+            .footer__inner
+                .social-icons.clearfix
+                    a.icons(href="#")
+                            i.icon(data-feather="facebook")
+                    a.icons(href="#")
+                            i.icon(data-feather="twitter")
+                    a.icons(href="#")
+                        i.icon(data-feather="instagram")
+                    a.icons(href="#")
+                        i.icon(data-feather="youtube")
+                .links.clearfix.table_container
+                    .list1_table.column
+                        ul
+                            li Home
+                            li Battle Pass
+                            li Watch
+                            li Get Fortnite
+                    .list2_table.column
+                        ul
+                            li News
+                            li FAQ
+                            li EULA
+                            li Competitive
+                    .list3_table.column
+                        ul
+                            li V-Bucks Card
+                            li Help
+                            li Safety and
+                            li Security
+                            li Community
+                            li Rules
+
+                .line
+                    hr
+                .info-foot.clearfix
+                    p.rights.
+                        © 2020, Epic Games, Inc. Epic, Epic Games, the Epic Games logo, Fortnite, the Fortnite logo, Unreal, Unreal Engine 4
+                        and UE4 are trademarks or registered trademarks of Epic Games, Inc. in the United States of America and elsewhere.
+                        All rights reserved.
+                    .links-help.table_container
+                        a(href="#").table.column.
+                            Terms of Service
+                        a(href="#").table.column.
+                            Privacy Policy
+
+    script feather.replace()
