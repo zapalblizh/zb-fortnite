@@ -409,22 +409,33 @@ body {
 
 .intropass {
   background: linear-gradient(106.7deg, #8135A4 -2.72%, #27184C 95.25%);
-  max-width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: $container-size2;
+  height: 850px;
+  align-items: center;
+  text-align: left;
+  align-content: center;
+  padding: 100px;
 
-  .learn-more {
-    margin-top: 70px;
-
-    a {
-      margin: auto;
-      background-color: #FFFD38;
-      padding: 22px 42px 22px 43px;
-      text-decoration: none;
-      align-items: center;
-      color: black;
-      font-weight: bold;
-
+  .colu {
+    max-width: 50%;
     }
 
+  .colu--2 {
+    text-align: right;
+  }
+
+  .learn-another {
+    margin-top: 70px;
+    align-items: center;
+    display: inline;
+    background-color: #FFFD38;
+    padding: 22px 42px 22px 43px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold
   }
 
   .red-big {
@@ -450,7 +461,10 @@ body {
 
   }
 
+  
 }
+
+
 
 
 
