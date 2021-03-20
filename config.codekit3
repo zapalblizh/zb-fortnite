@@ -7,12 +7,12 @@
       "uuidString" : "C38BD31C-66D3-4F65-9E94-8EDB3E8DADE4"
     }
   ],
-  "creatorBuild" : "34018",
+  "creatorBuild" : "34081",
   "files" : {
     "\/_includes" : {
       "ft" : 65536,
       "oA" : 1,
-      "oAP" : "\/build\/_includes",
+      "oAP" : "\/_includes",
       "oF" : 0
     },
     "\/.gitignore" : {
@@ -26,7 +26,7 @@
     "\/.idea" : {
       "ft" : 65536,
       "oA" : 1,
-      "oAP" : "\/build\/.idea",
+      "oAP" : "\/.idea",
       "oF" : 0
     },
     "\/assets\/_fonts.scss" : {
@@ -151,11 +151,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/images\/Facebook.png" : {
+    "\/assets\/images\/dragon-characters.png" : {
       "ft" : 32768,
-      "iS" : 446,
+      "iS" : 266484,
       "oA" : 0,
-      "oAP" : "\/assets\/images\/Facebook.png",
+      "oAP" : "\/assets\/images\/dragon-characters.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -190,11 +190,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/images\/instagram-icon.png" : {
+    "\/assets\/images\/girl-character.png" : {
       "ft" : 32768,
-      "iS" : 494,
+      "iS" : 163896,
       "oA" : 0,
-      "oAP" : "\/assets\/images\/instagram-icon.png",
+      "oAP" : "\/assets\/images\/girl-character.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -234,6 +234,19 @@
       "iS" : 1709,
       "oA" : 0,
       "oAP" : "\/assets\/images\/logo-fortnite.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/map-characters.png" : {
+      "ft" : 32768,
+      "iS" : 285149,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/map-characters.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -307,37 +320,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/images\/Twitter.png" : {
-      "ft" : 32768,
-      "iS" : 935,
-      "oA" : 0,
-      "oAP" : "\/assets\/images\/Twitter.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/assets\/images\/walking-dead.png" : {
       "ft" : 32768,
       "iS" : 209574,
       "oA" : 0,
       "oAP" : "\/assets\/images\/walking-dead.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/assets\/images\/Youtube.png" : {
-      "ft" : 32768,
-      "iS" : 773,
-      "oA" : 0,
-      "oAP" : "\/assets\/images\/Youtube.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -433,19 +420,6 @@
       "oAP" : "\/index.html",
       "oF" : 1,
       "oS" : 0
-    },
-    "\/points.png" : {
-      "ft" : 32768,
-      "iS" : 5769,
-      "oA" : 0,
-      "oAP" : "\/points.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
     },
     "\/prepros.config" : {
       "cB" : 0,
@@ -2536,21 +2510,21 @@
 
       ],
       "contentEntries" : [
-        "!(node_modules)\/**\/*.html",
-        "!(node_modules)\/**\/*.htm",
-        "!(node_modules)\/**\/*.shtml",
-        "!(node_modules)\/**\/*.xhtml",
-        "!(node_modules)\/**\/*.php",
-        "!(node_modules)\/**\/*.js",
-        "!(node_modules)\/**\/*.ts",
-        "!(node_modules)\/**\/*.coffee",
-        "!(node_modules)\/**\/*.erb",
-        "!(node_modules)\/**\/*.pug",
-        "!(node_modules)\/**\/*.jade",
-        "!(node_modules)\/**\/*.slim",
-        "!(node_modules)\/**\/*.haml",
-        "!(node_modules)\/**\/*.md",
-        "!(node_modules)\/**\/*.kit"
+        "**\/*.html",
+        "**\/*.htm",
+        "**\/*.shtml",
+        "**\/*.xhtml",
+        "**\/*.php",
+        "**\/*.js",
+        "**\/*.ts",
+        "**\/*.coffee",
+        "**\/*.erb",
+        "**\/*.pug",
+        "**\/*.jade",
+        "**\/*.slim",
+        "**\/*.haml",
+        "**\/*.md",
+        "**\/*.kit"
       ],
       "removeFontFace" : 0,
       "removeKeyframes" : 0,

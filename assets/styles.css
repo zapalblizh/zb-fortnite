@@ -708,3 +708,33 @@ body {
   letter-spacing: 0.1em;
   text-align: left;
 }
+
+.save-the-world-trash__inner {
+  display: flex;
+  align-items: flex-start;
+  column-count: 3;
+  justify-content: space-between;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.save-the-world-trash__inner .colum {
+  max-width: 380px;
+  text-align: center;
+  margin: 0 20px;
+  flex-direction: column;
+}
+.save-the-world-trash__inner .colum .textsave {
+  max-width: 200px;
+  text-align: center;
+}
+
+.titlesaveworld {
+  font-family: Burbank Big Cd Bk, sans-serif;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #0B0D32;
+}
