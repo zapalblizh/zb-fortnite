@@ -125,6 +125,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/competitive-intro.png" : {
+      "ft" : 32768,
+      "iS" : 772525,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/competitive-intro.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/creative-fort-foto.png" : {
       "ft" : 32768,
       "iS" : 977558,

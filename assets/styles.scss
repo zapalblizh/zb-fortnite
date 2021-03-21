@@ -414,11 +414,16 @@ body {
   background-size: cover;
   max-width: $container-size2;
   height: 850px;
-  align-items: center;
   text-align: left;
   align-content: center;
   padding: 100px;
+  align-items: center;
 
+  .intropass__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
   .colu {
     max-width: 50%;
     }
@@ -468,13 +473,13 @@ body {
   display: flex;
   align-items: flex-start;
   column-count: 3;
-  justify-content: space-between;
-  max-width: $container-size;
+  justify-content: center;
+  max-width: 1500px;
+  text-align: center;
   margin: 0 auto;
 
   .colum {
     max-width: 380px;
-    text-align: center;
     margin: 0 20px;
     flex-direction: column;
 
@@ -482,6 +487,7 @@ body {
       max-width: 200px;
       text-align: center;
     }
+
   }
 
 }
@@ -496,6 +502,96 @@ body {
   text-align: center;
   color: #0B0D32;
 }
+
+.normaltext {
+  font-family: Open Sans, sans sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0;
+}
+
+.titlesaveworldbase {
+  font-family: Burbank Big Burbank Big Cd Bk, sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 70px;
+  letter-spacing: 0;
+  color: #0B0D32;
+}
+
+#BattlePassIndex {
+  color: #FFFD38;
+}
+
+#CompetitiveIndex {
+  color: #FFFD38;
+}
+
+.introcomp {
+  max-width: 100%;
+  height: 850px;
+  background-image: url("../assets/images/competitive-intro.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  padding: 100px;
+
+  .leaderboard {
+    margin-top: 70px;
+    align-items: center;
+    display: inline;
+    background-color: #FFFD38;
+    padding: 22px 42px 22px 43px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold
+  }
+
+  .white-big {
+    font-family: Burbank Big Cd Bk, sans-serif;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 86px;
+    letter-spacing: 0;
+    text-align: left;
+    color: white;
+    margin: 0 auto;
+  }
+
+  .redsmall {
+    font-family: Burbank Big Cd Bk, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #EB4851;
+  }
+}
+
+.calendar__inner {
+  background-color: white;
+
+  .hour {
+    text-align: center;
+    margin: auto 0;
+    font-family: Burbank Big Cd Bk, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0;
+    color: #0B0D32;
+    padding: 40px 0;
+  }
+}
+
 
 
 
