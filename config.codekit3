@@ -7,7 +7,7 @@
       "uuidString" : "C38BD31C-66D3-4F65-9E94-8EDB3E8DADE4"
     }
   ],
-  "creatorBuild" : "34081",
+  "creatorBuild" : "34127",
   "files" : {
     "\/_includes" : {
       "ft" : 65536,
@@ -351,6 +351,19 @@
       "iS" : 209574,
       "oA" : 0,
       "oAP" : "\/assets\/images\/walking-dead.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/white-rectangle.png" : {
+      "ft" : 32768,
+      "iS" : 21222,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/white-rectangle.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -2557,6 +2570,9 @@
       "removeVariables" : 0,
       "safelistEntries" : [
 
+      ],
+      "skippedEntries" : [
+        "node_modules\/**"
       ]
     },
     "rollupContext" : "",
@@ -2591,6 +2607,7 @@
     "tsNoImplicitThis" : 0,
     "tsNoImplicitUseStrict" : 0,
     "tsNoLib" : 0,
+    "tsNoPropertyAccessFromIndexSignature" : 0,
     "tsNoResolve" : 0,
     "tsNoStrictGenericChecks" : 0,
     "tsNoUncheckedIndexAccess" : 0,

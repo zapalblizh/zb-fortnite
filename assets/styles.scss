@@ -613,7 +613,77 @@ body {
 
 }
 
+.upcomingdate {
+  font-family: Burbank Big Cd Bk, sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #371E8B;
+}
 
+.upcomingnumber {
+  font-family: Burbank Big Cd Bk, sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #371E8B;
+
+
+}
+
+.date-red {
+  font-family: Burbank Big Cd Bk, sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #EB4851;
+}
+
+.title-tournament {
+  font-family: Burbank Big Cd Bk, sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #371E8B;
+
+
+}
+
+.rowupcoming {
+  background-color: white;
+  width: $container-size;
+}
+
+.rowsup__inner {
+  max-width: 1500px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin: 0 auto;
+
+  .rowupcoming {
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    height: 120px;
+    max-width: 1500px;
+  }
+}
 
 
 
