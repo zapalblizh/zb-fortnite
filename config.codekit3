@@ -320,6 +320,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/SAVETHEWORLDSTART.png" : {
+      "ft" : 32768,
+      "iS" : 1318400,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/SAVETHEWORLDSTART.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/sign-in.png" : {
       "ft" : 32768,
       "iS" : 683,

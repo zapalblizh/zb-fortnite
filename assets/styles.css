@@ -915,3 +915,10 @@ body {
   height: 120px;
   max-width: 1500px;
 }
+
+.startsave__inner {
+  max-width: 100%;
+  background-image: url("images/SAVETHEWORLDSTART.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
