@@ -216,6 +216,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/grey rectangle.png" : {
+      "ft" : 32768,
+      "iS" : 601362,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/grey rectangle.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/introduction.png" : {
       "ft" : 32768,
       "iS" : 885772,
@@ -307,6 +320,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/images\/powerhouse.png" : {
+      "ft" : 32768,
+      "iS" : 633972,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/powerhouse.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/ps-free-skin.png" : {
       "ft" : 32768,
       "iS" : 146393,
@@ -320,11 +346,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/images\/SAVETHEWORLDSTART.png" : {
+    "\/assets\/images\/save-start.png" : {
       "ft" : 32768,
       "iS" : 1318400,
       "oA" : 0,
-      "oAP" : "\/assets\/images\/SAVETHEWORLDSTART.png",
+      "oAP" : "\/assets\/images\/save-start.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,

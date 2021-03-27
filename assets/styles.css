@@ -916,9 +916,146 @@ body {
   max-width: 1500px;
 }
 
-.startsave__inner {
+.startsave {
+  background-image: url("../assets/images/save-start.png");
   max-width: 100%;
-  background-image: url("images/SAVETHEWORLDSTART.png");
+  height: 850px;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.titlestart {
+  margin: 0 auto;
+  color: white;
+  font-family: Burbank Big Cd Bk, sans-serif;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 86px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.textstart {
+  color: white;
+  font-family: Burbank Big Cd Bk, sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.startps {
+  padding-top: 400px;
+}
+
+.videodiv__inner {
+  margin: 0 auto;
+  background-color: #0B0D32;
+  align-items: center;
+  text-align: center;
+}
+
+.purple {
+  margin-top: 0;
+  padding-top: 100px;
+  color: #FF00FB;
+  font-family: Burbank Big Cd Bk, sans-serif;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.lowertitle {
+  margin-bottom: 0;
+  padding-bottom: 100px;
+  color: white;
+  font-family: Burbank Big Cd Bk, sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.titlepowerhouse {
+  color: white;
+  font-family: Burbank Big Cd Bk, sans-serif;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.powerhousetext {
+  color: white;
+  font-family: Burbank Big Cd Bk, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+
+.yellowprize {
+  font-family: Burbank Big Cd Bk, sans-serif;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #FFFD38;
+}
+
+.pspowerhouse {
+  max-height: 600px;
+  flex-direction: column;
+  display: flex;
+  background-image: url("../assets/images/grey rectangle.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1400px;
+  justify-content: space-around;
+  margin: 100px auto;
+  padding: 0 45px;
+}
+
+.linktobuy {
+  text-decoration: none;
+  background-color: #FF00FA;
+  align-items: center;
+  padding: 20px 86px;
+  color: black;
+  font-weight: 800;
+}
+
+.style {
+  color: white;
+  font-family: Burbank Big Cd Bk, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.imagepowerhouse {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.columnpowerhouse {
+  max-width: 600px;
 }
