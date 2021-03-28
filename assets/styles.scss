@@ -522,14 +522,6 @@ body {
   color: #0B0D32;
 }
 
-#BattlePassIndex {
-  color: #FFFD38;
-}
-
-#CompetitiveIndex {
-  color: #FFFD38;
-}
-
 .introcomp {
   max-width: 100%;
   height: 850px;
@@ -792,8 +784,6 @@ body {
 }
 
 .pspowerhouse {
-  max-height: 600px;
-  flex-direction: column;
   display: flex;
   background-image: url("../assets/images/grey rectangle.png");
   background-repeat: no-repeat;
@@ -802,7 +792,6 @@ body {
   justify-content: space-around;
   margin: 100px auto;
   padding: 0 45px;
-  
 }
 
 .linktobuy {
@@ -827,14 +816,21 @@ body {
 }
 
 .imagepowerhouse {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
+  margin: -10vh auto 0;
 }
 
-.columnpowerhouse {
-  max-width: 600px;
+#BattlePassIndex {
+  color: #FFFD38;
 }
+
+#CompetitiveIndex {
+  color: #FFFD38;
+}
+
+#SaveTheWorldIndex {
+  color: #FFFD38;
+}
+
 
 
 
