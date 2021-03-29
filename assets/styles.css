@@ -827,6 +827,81 @@ body {
 
 .tourinfo {
   background-color: #e5e5e5;
+  display: flex;
+}
+
+.tourinfo__inner {
+  margin: 100px auto 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.textcompetitive {
+  margin-left: 71px;
+}
+
+.titletourdream {
+  font-family: Burbank Big Cd Bk, sans-serif;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #371E8B;
+  margin-bottom: 20px;
+}
+
+.redtour {
+  font-family: Burbank Big Cd Bk, sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: #EB4851;
+  margin: 0;
+}
+
+.blackfont {
+  margin-top: 40px;
+}
+
+.dates {
+  font-family: Burbank Big Cd Bk, sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0;
+  text-align: left;
+  margin: 0;
+}
+
+.linkspecial {
+  text-decoration: none;
+  color: #371E8B;
+}
+
+.description {
+  font-family: Open Sans, serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.upcoming__inner {
+  max-width: 100%;
+  padding-top: 140px;
+  margin: 0 auto;
+}
+
+.titleupcoming {
+  margin-left: 100px;
 }
 
 .upcomingcss {
@@ -861,6 +936,8 @@ body {
   letter-spacing: 0;
   text-align: left;
   color: #371E8B;
+  padding-left: 70px;
+  text-wrap: none;
 }
 
 .date-red {
@@ -872,6 +949,8 @@ body {
   letter-spacing: 0;
   text-align: left;
   color: #EB4851;
+  padding-left: 30px;
+  text-wrap: none;
 }
 
 .title-tournament {
@@ -883,27 +962,26 @@ body {
   letter-spacing: 0;
   text-align: left;
   color: #371E8B;
-}
-
-.rowupcoming {
-  background-color: white;
-  width: 1140px;
+  padding-left: 100px;
+  text-wrap: none;
+  padding-right: 70px;
 }
 
 .rowsup__inner {
+  width: 1140px;
   max-width: 1500px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-around;
   margin: 0 auto;
+  padding-bottom: 135px;
 }
-.rowsup__inner .rowupcoming {
-  flex-wrap: wrap;
-  flex-direction: row;
+
+.rowcolour {
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+.rowupcoming {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  background-color: white;
   height: 120px;
   max-width: 1500px;
 }

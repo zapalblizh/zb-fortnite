@@ -47,13 +47,21 @@ html(lang="en")
 
         .tourinfo
             .tourinfo__inner
-                img(src="../assets/images/sport-character.png")
-                p
-                p
-                p
-                p
-                p
-                p
+                .imagecompetitive
+                    img(src="../assets/images/sport-character.png")
+                .textcompetitive
+                    p.titletourdream DREAMHACK ONLINE OPEN
+                    p.redtour SEMI FINALS
+                    .blackfont
+                        p.dates DATE: DECEMBER 20, 2020
+                        p.dates TIME: 3:00 PM EET
+                        p.dates REGION(S): EUROPE
+                    p.description This is a tournament for registered players only.
+                    p.description The top 50 players will advance to Stage 3. For
+                    p.description assistance and contact with the tournament
+                    p.description admins, please use this discord link:
+                    a.description.linkspecial(href="#") discord.gg/dreamhack
+                    p.description Best of luck!
 
         .upcoming
             .upcoming__inner
@@ -68,22 +76,28 @@ html(lang="en")
                 .rowsup
                    .rowsup__inner
 
-                        .rowupcoming--1
+                        .rowcolour
 
-                            p.upcomingnumber 20
-                            p.date-red SUNDAY, 3:00 PM PST
-                            p.title-tournament DREAMHACK ONLINE OPEN SEMIFINALS
+                            .rowupcoming
 
-                        .rowupcoming--2
+                                p.upcomingnumber 20
+                                p.date-red SUNDAY, 3:00 PM PST
+                                p.title-tournament DREAMHACK ONLINE OPEN SEMIFINALS
 
-                            p.upcomingnumber 20
-                            p.date-red SUNDAY, 7:00 PM PST
-                            p.title-tournament DREAMHACK ONLINE OPEN FINALS
+                        .rowcolour
 
-                        .rowupcoming--3
-                            p.upcomingnumber 20
-                            p.date-red SUNDAY, 8:00 PM PST
-                            p.title-tournament BHANGRA BOOGIE CUP
+                            .rowupcoming
+
+                                p.upcomingnumber 20
+                                p.date-red SUNDAY, 7:00 PM PST
+                                p.title-tournament DREAMHACK ONLINE OPEN FINALS
+
+                        .rowcolour
+
+                            .rowupcoming
+                                p.upcomingnumber 20
+                                p.date-red SUNDAY, 8:00 PM PST
+                                p.title-tournament BHANGRA BOOGIE CUP
 
         .footer
             .footer__inner
